@@ -12,12 +12,63 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Bootstrap Starter Page</title>
+    <title>Module 3 Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
 
+  <!--Begin navbar header-->
+  <header>
+    <div class="container">
+      <div class="navbar-header">
+
+        <div class="navbar-brand">
+          <h1>Food, LLC</h1>
+        </div>
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false">
+          <div class="glyphicon glyphicon-menu-hamburger"></div>
+        </button>
+
+        <div id="nav-menu" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>Chicken</li>
+            <li>Beef</li>
+            <li>Sushi</li>
+          </ul>
+        </div>
+        
+      </div> <!--end navbar-header-->
+    </div> <!--end container-->
+  </header>
+  <!--End navbar header-->
+
+  <!--Begin main content area-->
+  <h2 class="text-center">Our Menu</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="menu-item">
+          <h3>Chicken</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="menu-item">
+          <h3>Beef</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Vitae tortor condimentum lacinia quis vel eros donec. Id diam maecenas ultricies mi. Quis lectus nulla at volutpat diam ut venenatis tellus in.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="menu-item">
+          <h3>Sushi</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A lacus vestibulum sed arcu. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Congue mauris rhoncus aenean vel elit. Augue lacus viverra vitae congue.</p>
+        </div>
+      </div>
+    </div>
+  </div> <!--End .container-fluid-->
+  <!--End main content area-->
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>

@@ -1,0 +1,20 @@
+body {
+    background-color: #fff;
+}
+
+.menu-item {
+    background-color: #ddd;
+}
+.menu-item h3 {
+    padding-top: 16px;
+    text-align: center;
+}
+.menu-item p {
+    padding: 8px;
+}
+
+.navbar-toggle {
+    border: 1px solid black;
+    width: 50px;
+    clear: both;
+}
