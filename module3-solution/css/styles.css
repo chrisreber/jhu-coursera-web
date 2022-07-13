@@ -1,6 +1,10 @@
 body {
     background-color: #fff;
 }
+h2 {
+    margin-top: 12px;
+    font-size: 2em;
+}
 
 .menu-item {
     background-color: #ddd;
@@ -13,8 +17,19 @@ body {
     padding: 8px;
 }
 
-.navbar-toggle {
-    border: 1px solid black;
+.navbar-toggler {
+    border: 1px solid #707071;
     width: 50px;
-    clear: both;
+}
+.navbar-brand h1 {
+    font-size: 2.5em;
+}
+
+.navbar-nav {
+    border-top: 1px solid #707071;
+}
+.navbar-nav li {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #707071;
 }
